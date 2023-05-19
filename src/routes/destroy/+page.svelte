@@ -12,7 +12,7 @@
 <div>
     <ol>
         {#each data?.records as record,index}
-        <li> <input id={`job-checkbox-${index}`} checked={selectedItem?.jobname === record.jobname} type="checkbox" value={JSON.stringify(record)} on:click={()=> selectedItem = (selectedItem?.jobname !== record.jobname)? record  : undefined}/>{`Job name: ${record.jobname}   Salary: ${record.salary}`}</li>
+        <li> <input id={`job-checkbox-${index}`} checked={selectedItem?.jobname === record.jobname} type="checkbox" value={JSON.stringify(record)} on:click={()=> selectedItem = (selectedItem?.jobname !== record.jobname)? record  : undefined}/>{`Job Name: ${record.jobname}   Salary: ${record.salary}`}</li>
         {/each}
     </ol>
     {#if selectedItem}
