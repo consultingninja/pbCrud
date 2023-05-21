@@ -1,6 +1,6 @@
 <h1>Welcome to Consulting Ninja!</h1>
 <h3>Pocketbase CRUD APP basics!</h3>
-<p>Visit <a href="https://kit.svelte.dev"><strong>@ConsultingNinja</strong></a> to see more great videos!</p>
+<p>Visit <a href="https://www.youtube.com/@ConsultingNinja/featured"><strong>@ConsultingNinja</strong></a> to see more great videos!</p>
 
 <p>Each page represents the corresponding data operation with a +page.server file that performs the action in PocketBase!</p>
 
