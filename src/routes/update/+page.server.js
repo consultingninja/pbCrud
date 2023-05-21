@@ -32,7 +32,7 @@ export const actions={
             jobname,
             salary
         }
-        const record = await pb.collection('jobs').update(id, data);
+        await pb.collection('jobs').update(id, data);
 
     }
 }

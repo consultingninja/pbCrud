@@ -17,7 +17,7 @@ export const actions={
             salary
         };
         
-        const record = await pb.collection('jobs').create(data);
+        await pb.collection('jobs').create(data);
 
 
     }
